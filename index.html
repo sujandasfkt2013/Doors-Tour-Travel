@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doors Tour & Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e5efe9;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #aef0bc, #b2a8f8);
+            color: rgb(209, 32, 156);
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 50px; /* Adjust size as needed */
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            background: rgb(163, 243, 204);
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section:nth-child(even) {
+            background: #ffcccb;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+            border: 2px solid #fc913a;
+            border-radius: 5px;
+        }
+        form button {
+            background: #ff4e50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        footer {
+            background: linear-gradient(90deg, #fc913a, #ff4e50);
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Doors Tour & Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Dooars Tour & Travel</h2>
+        <p>Your gateway to unforgettable adventures.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide the best travel experiences across the world.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Guided Tours</li>
+            <li>Customized Travel Packages</li>
+            <li>Hotel & Flight Bookings</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore stunning destinations.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Doors Tour & Travel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
